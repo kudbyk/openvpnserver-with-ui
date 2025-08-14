@@ -1,7 +1,7 @@
 # Start from Alpine base image
-FROM alpine
-LABEL maintainer="Mr.Janam <talktojanam@gmail.com>"
-LABEL version="0.4.1"
+FROM alpine:latest
+LABEL maintainer="Mr. Kudbyk"
+LABEL version="1.0"
 
 # Set the working directory to /opt/app
 WORKDIR /opt/app
